@@ -9,6 +9,7 @@ spec:
     predictor:
       custom:
         container:
+          name: noname
           image: hylinktree/iris-classifier
           ports:
             - protocol: TCP
